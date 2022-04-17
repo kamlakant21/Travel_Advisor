@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="home1.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        /* Add a gray background color with some padding */
+        
+        body {
+            font-family: Arial;
+            padding: 20px;
+            background: #f1f1f1;
+        }
+        /* Header/Blog Title */
+        
+        .header {
+            padding: 30px;
+            font-size: 40px;
+            text-align: center;
+            background: white;
+        }
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        
+        .leftcolumn {
+            float: left;
+            width: 75%;
+        }
+        /* Right column */
+        
+        .rightcolumn {
+            float: left;
+            width: 25%;
+            padding-left: 20px;
+        }
+        /* Fake image */
+        
+        .room-img {
+            background-image: url(images/ss1.png);
+            width: 900px;
+            height: 500px;
+            padding: 20px;
+            background-repeat: no-repeat;
+        }
+        /* Add a card effect for articles */
+        
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        /* Clear floats after the columns */
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* Footer */
+        
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+            margin-top: 20px;
+        }
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        
+        @media screen and (max-width: 800px) {
+            .leftcolumn,
+            .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Travel Advisor </h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="tours.html">Destinations</a>
+        <a href="news.html">Cases</a>
+        <a href="hotels.html">Hotels</a>
+        <a href="blog.html">Blog</a>
+    </nav>
+
+    <div class="leftcolumn">
+        <div class="card">
+            <h2>You can now travel to these Indian destinations without worrying about COVID-19 regulations</h2>
+            <h5>Created : Oct 1, 2020, 15:00 IST</h5>
+            <div class="col-md-6 col-sm-6">
+                <div class="room-img"></div>
+            </div>
+            <p>The Coronavirus pandemic has forced people to stay in isolation, given the contagious nature of the virus. If you are planning to travel, a 14-day institutional or home quarantine is a must at most of the places. Now as the country is unlocking
+                in phases, there are several places in India that have lifted all regulations regarding institutional quarantine.</p>
+
+            <p> Destinations such as Goa, Himachal Pradesh and Uttarakhand are now allowing visitors from other states to enter without a COVID-19 negative report or mandatory quarantine. While exercising caution is a must, it seems like happy travel times
+                are back. Here are a few places you can plan a trip to following all the COVID-19 precautions. Remember, the Arogya Setu app is a must-have for all these destinations.</p>
+
+            <p> 1) Goa: The beach state is welcoming travellers from all over. You don’t need to undergo any testing or carry any reports or quarantine.</p>
+
+            <p> 2) Himachal Pradesh: For those wishing to hide amidst mountains, Himachal Pradesh has opened its borders for tourists without any quarantine rules.</p>
+
+            <p> 3) Uttarakhand: Uttarakhand too is a perfect option for mountain lovers as the government has now allowed tourists to enter the state without a COVID negative report or quarantine restrictions. Registration on the government portal is must
+                though.</p>
+            </p>
+            <p>4) Pondicherry: The union territory is allowing tourists to enter without a COVID-19 negative result or quarantine requirements. If someone tests positive for the virus here or starts showing symptoms for the same, they’ll have to report to
+                a government-run hospital.</p>
+
+            <p> 5) Arunachal Pradesh: Inter-state travellers will be tested for the virus (Rapid Antigen Test) at the entry point for the state. Asymptomatic and negative tourists can enter the state and enjoy their stay while maintaining all COVID-19 measures.</p>
+
+            <p> 6) Gujarat: Visitors to Gujarat will have to undergo thermal screening. Those with no symptoms will not be required to quarantine.</p>
+
+            <p> 7) Karnataka: Asymptomatic domestic passengers are not required to quarantine. </p>
+
+            <p> 8) Ladakh: If you plan to visit Ladakh for less than five days, you can skip quarantine by providing a negative RT-PCR test (96 hours old).</p>
+
+            <p> <b> While travelling, please follow all the health and safety guidelines by Central and State governments as well as local bodies.</p></b>
+                <p><b>Social distancing is essential for your safety as well as for the locals of these places. Please stick to the conditions laid out by your hosts if you venture outside the premises.</b></p>
+        </div>
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+#total-cases-country {
+  /* background: red; */
+  overflow: auto;
+  height: 90%;
+}
+
+.total-number {
+  color: red;
+  font-weight: 700;
+}
+.total-number-country,
+.total-number-state {
+  color: green;
+}
+
+#total-deaths {
+  overflow: auto;
+  height: 90%;
+}
+
+.border-dark {
+  border-color: #343a40 !important;
+  background: white;
+}
+
+#tooltip {
+  visibility: hidden;
+  height: auto;
+  width: auto;
+}
+
+#tooltip-world {
+  visibility: hidden;
+  height: auto;
+  width: auto;
+
+}
+
+#search-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+
+/* loader */
+.loader {
+  width: 80px;
+  height: 80px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: block;
+  
+}
+
+#hotel-card-1 {
+    display: none;
+}
+#hotel-card-2 {
+    display: none;
+}
+#hotel-card-3 {
+    display: none;
+}
+
+
+
+@media (max-width: 991px) {
+  [class*= row] {
+    width: 100%;
+    }
+
+}
+
+
+
+  @media (min-width: 350px) and (max-width: 767px) {
+    [class*=col-6] {
+      display: none;
+    }
+  }
+
+  
+@media (min-width: 768px) {
+  #search-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+}
+@media (max-width: 414px) {
+
+  #search-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .tabs {
+    width: 80%;
+    height: 450px;
+    position: relative;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.btn-box {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.btn-box button {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    position: absolute;
+    transform: translateX(100%);
+    transition: 0.3s;
+}
+
+content-left {
+    flex-basis: 50%;
+}
+
+content-right {
+    flex-basis: 50%;
+}
+
+
+ content1 {
+    transform: translateX(0px);
+    transform: translateY(0px);
+} 
+
+btn1 {
+    color: #ff7846;
+}
+
+}
+

@@ -1,0 +1,87 @@
+h1{
+    
+    text-align: center;
+    font-size: 40px;
+    color:white
+}
+header{
+    padding: 40px;
+background-color: rgb(17, 124, 143);
+}
+section h2{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(95, 10, 10);
+    color: white;
+}
+#total-cases-country {
+    /* background: red; */
+    overflow: auto;
+    height: 90%;
+  }
+  
+  .total-number {
+    color: red;
+    font-weight: 700;
+  }
+  .total-number-country,
+  .total-number-state {
+    color: green;
+  }
+  
+  #total-deaths {
+    overflow: auto;
+    height: 90%;
+  }
+  
+  .border-dark {
+    border-color: #343a40 !important;
+    background: white;
+  }
+  
+  #tooltip {
+    visibility: hidden;
+    height: auto;
+    width: auto;
+  }
+  
+  #tooltip-world {
+    visibility: hidden;
+    height: auto;
+    width: auto;
+  
+  }
+  .loader {
+    width: 80px;
+    height: 80px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: block;
+    
+  }
+  
+  #hotel-card-1 {
+      display: none;
+  }
+  #hotel-card-2 {
+      display: none;
+  }
+  #hotel-card-3 {
+      display: none;
+  }
+  
+  @media (max-width: 991px) {
+    [class*= row] {
+      width: 100%;
+      }
+  
+  }
+  
+    @media (min-width: 350px) and (max-width: 767px) {
+      [class*=col-6] {
+        display: none;
+      }
+    }
+  
